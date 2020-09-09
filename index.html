@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Trek Quiz</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- top section -->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-success display-3 my-4 font-weight-bold"> Star Trek Quiz <i class="fas fa-rocket"></i></h2>
+    </div>
+  </div>
+
+  <!-- result section -->
+  <div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+    <p>Congratulation You are<span class="text--danger display-4 p-3">0%</span> Trekkie</p>
+    </div>
+  </div>
+
+  <!-- quiz section -->
+  <div class="quiz py-4 bg-primary">
+    <div class="container">
+      <h2 class="my-5 text-white"><i class="fas fa-hand-spock"></i> Good luck all you star trek fans...</i></h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-bold">1. who was the captain of the USS enterprise on star trek the next generation tv series?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="A" checked>
+            <label class="form-check-label">Captain Jean-Luc Picard?</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label">Captain Christopher Pike?</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="C">
+            <label class="form-check-label">Captain Philippa Georgiou?</label>
+          </div>
+          
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-bold">2. what was the name of the model of the first starship enterprise, in the original 1960s star trek tv series?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="A" checked>
+            <label class="form-check-label"> USS Enterprise (NCC-1701) </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label"> Enterprise (NX-01)</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="C">
+            <label class="form-check-label"> USS Enterprise (NCC-1701-C)</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-bold">3. where was Captain James T. Kirk born?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="A" checked>
+            <label class="form-check-label">Riverside, Iowa</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label">london england</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="C">
+            <label class="form-check-label">the planet mars</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-bold">4. what is the name of the new star trek tv series, that will take place on the USS enterprise 10 years before Captain James T. Kirk time?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="A" checked>
+            <label class="form-check-label">Star Trek Strange New Worlds?</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label">Star Trek Discovery?</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="C">
+            <label class="form-check-label">Star Trek Picard?</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <i class="fas fa-user-astronaut"></i> <input type="submit" class="btn btn-dark btn-lg"> 
+        </div>
+      </form>
+
+    </div>
+  </div>
+  
+
+  <script src="app.js"></script>  
+</body>
+</html>
